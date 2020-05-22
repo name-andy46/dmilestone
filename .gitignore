@@ -7,3 +7,4 @@ __pycache__/
 static/images/d_logo.png
 static/images/Favicon.png
 banner_pics/*
+banner_pics/
