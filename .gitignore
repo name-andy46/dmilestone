@@ -1,8 +1,9 @@
 *.db
 *.jpg
 !default.jpg
-static/images/banner_pics/
+static/images/banner_pics/*
 __pycache__/
 .env
 static/images/d_logo.png
 static/images/Favicon.png
+banner_pics/*
