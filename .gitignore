@@ -1,0 +1,6 @@
+*.db
+*.jpg
+!default.jpg
+static/images/banner_pics/
+__pycache__/
+

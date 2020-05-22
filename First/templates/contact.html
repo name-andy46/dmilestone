@@ -1,0 +1,45 @@
+{% extends 'layout.html' %}
+
+
+{% block content %}
+
+<h1 class="children-head">A Few Relevant People</h1>
+<h2 class="ml-5 mt-5 border-bottom">Society Members</h2>
+<div class="media p-3 border border-light">
+    <ul class="list-unstyled">
+      <li class="media mt-3 mb-3">
+        <img class="align-self-start mr-3" style="width:120px" src="{{ url_for('static', filename='images/placeholder.jpg')}}" alt="placeholder image">
+        <div class="media-body">
+          <h4 class="mt-0 mb-1 text-muted">Chairman</h4>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+      </li>
+      <li class="media mt-3 mb-3">
+        <img class="align-self-start mr-3" style="width:120px" src="{{ url_for('static', filename='images/placeholder.jpg')}}" alt="placeholder image">
+        <div class="media-body">
+          <h4 class="mt-0 mb-1 text-muted">Secretary</h4>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+      </li>
+      <li class="media mt-3 mb-3">
+        <img class="align-self-start mr-3" style="width:120px" src="{{ url_for('static', filename='images/placeholder.jpg')}}" alt="placeholder image">
+        <div class="media-body">
+          <h4 class="mt-0 mb-1 text-muted">Treasurer</h4>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+      </li>
+    </ul>
+</div>
+<h2 class="ml-5 mt-5 border-bottom">Property Manager</h2>
+<div class="media p-3 border border-light">
+    <ul class="list-unstyled">
+      <li class="media mt-3 mb-3">
+        <img class="align-self-start mr-3" style="width:120px" src="{{ url_for('static', filename='images/placeholder.jpg')}}" alt="placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">Manager</h5>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+      </li>
+    </ul>
+</div>
+{% endblock %}

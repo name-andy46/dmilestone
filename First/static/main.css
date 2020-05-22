@@ -1,0 +1,49 @@
+.bg-dark{
+    background-color: #3b1804 !important;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+h1{
+    color: tomato;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.children-head{
+    color: #555555;
+}
+
+.eats{
+    margin-top: 100px;
+}
+
+.logger{
+    color: #cccccc
+}
+
+.account-img{
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
